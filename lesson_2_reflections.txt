@@ -5,3 +5,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 -- The staging area holds the files that will be included in the repository. You can change your mind in case you want to add or remove files in the staging area before you put them in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-- With git diff --staged, you'll be able to find out which lines you are about to commit -- that is the file(s) you added already to the staging area. With git status, you'll be able to find out what changes you have done so far.

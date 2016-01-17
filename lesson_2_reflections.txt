@@ -17,3 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 -- With diagrams, I'll be able to tell which is the main branch and which are the other branches. It will be easier to see how I can reach certain commits on other branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-- The features in a branch are now found in the master branch. So that it will be clear as to where the branches separated and where they merge for future reference.
